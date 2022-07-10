@@ -11,7 +11,7 @@ MongoClient.connect(process.env.RESTREVIEWS_DB_URI, {
   wtimeout: 2500,
   useNewUrlParse: true,
 })
-.catch((err) => {
+.catch(err => {
   console.error(err.stack);
   process.exit(1);
 })
