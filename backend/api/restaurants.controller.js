@@ -13,5 +13,11 @@ export default class RestaurantsController {
         } else if (req.query.name) {
             filters.name = req.query.name
         }
+
+        const { restaurantsList, totalNumRestaurants } = await RestaurantsDAO.getRestaurants({
+            filters,
+            page,
+            restaurantsPerPage,
+        })
     }
 }
