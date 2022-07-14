@@ -7,6 +7,7 @@ This is a basic restaurant reviews app that is built in React, Express, MongoDB 
 - Express
 - MongoDB
 - NodeJs
+ 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
